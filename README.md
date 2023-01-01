@@ -4,7 +4,7 @@ W przypadku problemów z terminalem (np. aktywacja venv) należy użyć innego n
 
 Z poziomu folderu z projektem:
 - virtualenv venv
-- venv/Scripts/activate
+- venv\Scripts\activate
 - pip install -r requirements.txt
 
 Z poziomu folderu react_native_app:
