@@ -1,5 +1,6 @@
 import LoginView from './views/LoginView'
 import RegisterView from './views/RegisterView';
+import HomeView from './views/HomeView';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -14,6 +15,7 @@ export default function App() {
           <Stack.Navigator>
               <Stack.Screen name="Login" component={LoginView} options={{headerShown: false}}/>
               <Stack.Screen name="Register" component={RegisterView} options={{headerShown: false}}/>
+              <Stack.Screen name="Home" component={HomeView} options={{headerShown: false}}/>
           </Stack.Navigator>
       </NavigationContainer>
     );
