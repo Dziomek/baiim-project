@@ -28,5 +28,26 @@ export const loginRegisterStyles = StyleSheet.create({
     textError: {
       margin: screenHeight * 0.03,
       color: 'red'
-  }
+    },
+    postsScroll: {
+        height: screenHeight * 0.3,
+        margin: 0
+    }
 });
+
+export const homeStyles = StyleSheet.create({
+    postsScroll: {
+        height: screenHeight * 0.3,
+        width: screenWidth * 0.6,
+        margin: 0
+    },
+    postContainer: {
+        display: 'flex', 
+        flexDirection: 'row',
+        justifyContent: 'space-between', 
+        margin: 2,
+    },
+    postContent: {
+        fontSize: '20px'
+    }
+})

@@ -86,3 +86,15 @@ def submit_post():
         'message': 'Post added successfully'
     })
     return response
+
+@app.route('/delete-post/<id>', methods=['DELETE'])
+def delete_post(id):
+
+    post = Post.query.filter_by(id=id).first()
+    db.session.delete(post)
+    db.session.commit()
+
+    response = make_response({
+        'message': 'Post deleted successfully'
+    })
+    return response
