@@ -19,3 +19,18 @@ Z poziomu folderu react_native_app:
 - npm run web - aby otworzyć apkę w przeglądarce lub
 - npm run android - aby otworzyć apkę w emulatorze (może być to np. emulator z Android Studio, jeśli będzie włączony, zostanie wykryty i apka się uruchomi)
 - npm run ios - to samo, ale na iOS
+
+## ZADANIA
+Przed rozpoczęciem zadań utwórz kilku użytkowników, po zalogowaniu dodaj kilka postów. Przeanalizuj strukturę frontendu i backendu oraz komunikację między nimi.
+
+ZAD1.
+Sprawdź w jaki sposób wyświetlane są posty użytkownika w aplikacji. Czy da się uzyskać dostęp do postów innego użytkownika nie znając jego danych logowania? Jeśli tak, napisz jak to zrobić.
+
+ZAD2.
+Przeanalizuj działanie funkcji odpowiedzialnych za usuwanie postów. Czy da się usunąć posty innego użytkownika? Jeśli tak, napisz w jaki sposób.
+
+ZAD3.(Yana)
+
+
+ZAD4.
+Wskaż 3 problemy bezpieczeństwa testowanej aplikacji. Na podstawie prezentacji oraz własnych przemyśleń zaproponuj w jaki sposób można je rozwiązać(problem -> rozwiązanie).
